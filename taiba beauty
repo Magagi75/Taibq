@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Taiba Beauty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .menu {
+            background-color: #333;
+            color: white;
+            height: 50px;
+            line-height: 50px;
+            width: 100%;
+        }
+        .menu a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            color: #ddd;
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="#home">Anasayfa</a>
+        <a href="#about">Hakkımız</a>
+        <a href="#services">Hizmetlerimiz</a>
+        <a href="#products">Ürünler</a> <!-- Yeni eklenen Ürünler sayfasına yönlendiren link -->
+        <a href="#contact">İletişim</a>
+    </div>
+
+    <div id="home" class="content">
+        <h1>Taiba Beauty</h1>
+        <p>Kozmetik alanında uzun yıllar boyunca tecrübemiz olan Taiba Beauty, en yüksek kalitede kozmetik ürünler sunuyor. Sabun, vücut kremi, saç yağı gibi çeşitli kozmetik ürünlerimizle size en iyi hizmeti sunuyoruz.</p>
+    </div>
+
+    <div id="about" class="content">
+        <h1>Hakkımız</h1>
+        <p>Taiba Beauty, müşterilerimize yaklaşık 20 yıldır hizmet veriyor. En yüksek kalitede kozmetik ürünlerimiz arasında sabun, vücut kremi ve saç yağı bulunmaktadır.</p>
+    </div>
+
+    <div id="services" class="content">
+        <h1>Hizmetlerimiz</h1>
+        <p>Taiba Beauty, çad ve dünya çapında hizmet vermekteyiz. Müşterilerimize en iyi hizmeti sunmaktan dolayı yerel ve uluslararası müşterilerimiz arasında popüleriz.</p>
+    </div>
+
+    <div id="products" class="content">
+        <h1>Ürünler</h1>
+        <h2>Sıvı Sabun</h2>
+        <p>En kaliteli malzemelerle üretilmiş sıvı sabunlarımız, cildinizi temiz ve ferah bırakır. Çeşitli doğal özlerle zenginleştirilmiştir.</p>
+
+        <h2>Vücut Kremi</h2>
+        <p>Cildinizi nemlendirmek ve beslemek için özel olarak formüle edilmiş vücut kremlerimiz, yumuşak ve sağlıklı bir cilt için idealdir.</p>
+    </div>
+
+    <div id="contact" class="content">
+        <h1>İletişim</h1>
+        <p>Herhangi bir sorunuz varsa ya da yardıma ihtiyacınız varsa lütfen bizimle iletişime geçin...</p>
+    </div>
+</body>
+</html>
